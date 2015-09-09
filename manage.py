@@ -2,8 +2,6 @@
 import os
 import sys
 
-# something
-
 if __name__ == "__main__":
     os.environ.setdefault("DJANGO_SETTINGS_MODULE", "django_test.settings")
 
