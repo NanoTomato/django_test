@@ -4,14 +4,14 @@
 
                                 Table "public.polls_project"
  Column |         Type          |                         Modifiers                          
---------+-----------------------+------------------------------------------------------------
+--------|-----------------------|------------------------------------------------------------
  id     | integer               | not null default nextval('polls_project_id_seq'::regclass)
  name   | character varying(30) | not null
 
 
                                   Table "public.polls_employee"
    Column   |         Type          |                          Modifiers                          
-------------+-----------------------+-------------------------------------------------------------
+------------|-----------------------|-------------------------------------------------------------
  id         | integer               | not null default nextval('polls_employee_id_seq'::regclass)
  name       | character varying(30) | not null
  birthdate  | date                  | not null
